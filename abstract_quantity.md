@@ -1,4 +1,3 @@
-Abstract Quantity
 AbstractQuantity provides additional methods to convert values directly into a target unit. They are more useful as meta-data converted to the application internal representation (typically a double primitive type in some fixed units) before computation or further processing begin. For this purpose, the AbstractQuantity class provides the longValue(Unit<Q>) and doubleValue(Unit<Q>) convenience methods. For example the doubleValue(Unit<Q>) method is equivalent to the following
 gg
 ```
