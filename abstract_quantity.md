@@ -1,4 +1,4 @@
-a
+AbstractQuantity provides additional methods to convert values directly into a target unit.
 ```
 public double doubleValue(Unit<Q> unit) {
    return getUnit().getConverterTo(unit).convert(getValue().doubleValue());
