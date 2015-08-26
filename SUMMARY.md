@@ -4,6 +4,6 @@
 * [Overview](overview.md)
 * [Supported Units](supported_units.md)
 * [Abstract Base Classes](abstract_base_classes.md)
-   * [Abstract Quantity](abstractquantitymd.md)
+   * [Abstract Quantity](abstractquantity.md)
    * [AbstractUnit](abstractunit.md)
 
