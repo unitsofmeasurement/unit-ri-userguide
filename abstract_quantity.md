@@ -1,4 +1,5 @@
-AbstractQuantity provides additional methods to convert values directly into a target unit. They are more useful as meta-data converted to the application internal representation (typically a double primitive type in some fixed units) before computation or further processing begin.
+<code>AbstractQuantity</code> provides additional methods to convert values directly into a target unit. They are more useful as meta-data converted to the application internal representation (typically a double primitive type in some fixed units) before computation or further processing begin.
+For this purpose <code>AbstractQuantity</code> provides the <code>longValue(Unit< Q >)</code> and <code>doubleValue(Unit< Q >)</code> convenience methods.
 
 ```
 public double doubleValue(Unit<Q> unit) {
