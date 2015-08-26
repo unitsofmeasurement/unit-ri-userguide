@@ -1,4 +1,4 @@
-The out-of-the-box Units class (RI) includes support for units (and quantities) defined in the following documents:
+The out-of-the-box **Units** class in the reference implementation includes support for units (and quantities) defined in the following documents:
 * BIPM units (same as ISO 1000), including:
  - Base units
  - Coherent derived units in the SI with special names and symbols
