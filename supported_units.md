@@ -1,4 +1,4 @@
-The out-of-the-box **Units** class in the reference implementation includes support for units (and quantities) defined in the following documents:
+The out-of-the-box <code>Units</code> class in the reference implementation includes support for units (and quantities) defined in the following documents:
 * BIPM units (same as ISO 1000), including:
  - [Base units](http://www.bipm.org/en/publications/si-brochure/section2-1.html)
  - [Coherent derived units in the SI with special names and symbols](http://www.bipm.org/en/publications/si-brochure/table3.html)
