@@ -10,4 +10,5 @@
    * [Units](units.md)
    * [Quantities](quantities.md)
 * [RI Level SPI](ri_spi.md)
+   * Measurement interface
 
