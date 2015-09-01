@@ -10,4 +10,6 @@ Legend:
 * <span style="color: green">API</span>
 * RI
   
+<span style="foreground: green">API</span>
+
 Note that the above UML restricts measurements to scalar values through its association to a single Quantity, which is a main reason why we currently define Measurement at the implementation level rather than in the API. Furthermore, defining Measurement on the implementation level also allows e.g. SE 8 specific implementations to use [JSR-310] for the timestamp while the Reference Implementation remains compatible with ME 8 and other Embedded platforms, using long as timestamp like many other APIs e.g. [OSGIM].
