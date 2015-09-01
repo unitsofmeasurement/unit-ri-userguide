@@ -7,6 +7,6 @@
    * [Abstract Quantity](abstractquantity.md)
    * [AbstractUnit](abstractunit.md)
 * [Factory Accessors](factory_accessors.md)
-   * [Quantities](quantities.md)
    * [Units](units.md)
+   * [Quantities](quantities.md)
 
