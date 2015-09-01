@@ -8,5 +8,5 @@ Fowler, M. Analysis Patterns: Reusable Object Models, Addison-Wesley, Reading, M
 
 Igor Janicijevic and Martin Fowler: Analysis Patterns, http://martinfowler.com/apsupp/apchap3.pdf, http://martinfowler.com/apsupp/apchap4.pdf, http://martinfowler.com/apsupp/appfacades.pdf
 
-## JSR310
+## JSR-310
 Date & Time JSR: http://jcp.org/en/jsr/detail?id=310
