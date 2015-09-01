@@ -12,5 +12,5 @@
 * [RI Level SPI](ri_spi.md)
    * [Measurement Interface](measurement.md)
    * [Range Class](range.md)
-* References
+* [References](references.md)
 
