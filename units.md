@@ -1,7 +1,7 @@
 
 ## Units
 
-The <code>Units</code> class extends <code>AbstractSystemOfUnits</code> and provides a set of  a set of static constants for the most common units defined by SI/BIPM, see [link text](http://...#abcd) . 
+The <code>Units</code> class extends <code>AbstractSystemOfUnits</code> and provides a set of  a set of static constants for the most common units defined by SI/BIPM, see [link text](supported_units.html) . 
 
 ## Metric Prefix
 <code>MetricPrefix</code> is provided for obtaining multiples or submultiples of system units. Method names mirror SI / Metric prefix names but are uppercase like it's common to **constants** in Java. <code>MetricPrefix</code> is a "hybrid" enum, defining the constant factors as enumeration elements, but doing the actual conversion via matching static method names like <code>CENTI</code>, <code>MEGA</code>, etc. 
