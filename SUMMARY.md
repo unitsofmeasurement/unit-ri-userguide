@@ -11,5 +11,5 @@
    * [Quantities](quantities.md)
 * [RI Level SPI](ri_spi.md)
    * [Measurement interface](measurement.md)
-   * Range Class
+   * [Range Class](range.md)
 
