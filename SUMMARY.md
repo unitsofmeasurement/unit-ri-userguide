@@ -9,5 +9,5 @@
 * [Factory Accessors](factory_accessors.md)
    * [Units](units.md)
    * [Quantities](quantities.md)
-* RI Level SPI
+* [RI Level SPI](ri_spi.md)
 
