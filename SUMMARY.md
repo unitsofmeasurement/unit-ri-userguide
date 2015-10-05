@@ -10,9 +10,9 @@
    * [Units](units.md)
    * [Quantities](quantities.md)
 * Formatting
+* Functional Elements
 * [RI Level SPI](ri_spi.md)
    * [Measurement Interface](measurement.md)
    * [Range Class](range.md)
    * Formatting
-* Functional Elements
 
