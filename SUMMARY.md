@@ -11,6 +11,7 @@
    * [Quantities](quantities.md)
 * Formatting
 * Functional Elements
+   * Functional Interfaces
 * [RI Level SPI](ri_spi.md)
    * [Measurement Interface](measurement.md)
    * [Range Class](range.md)
