@@ -12,6 +12,7 @@
 * Formatting
 * [Functional Elements](functional_elements.md)
    * Functional Interfaces
+   * Converters
 * [RI Level SPI](ri_spi.md)
    * [Measurement Interface](measurement.md)
    * [Range Class](range.md)
