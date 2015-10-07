@@ -2,7 +2,7 @@
 
 The enum type is final, so it works better for a smaller set of well-known elements. The fact, that NONE (Dimensionless) has no symbol but a default unit made it harder to deal with enums and their default constructors. A default yet extensible model and dimensional calculations made it even harder..
 Enums are used in some areas, e.g. behavior of parsing and formatting or unit prefixes. In most other parts of the API we need to keep it open and flexible towards extensions. Which a final type like enum wouldn't work for. In cases where a quantity implementation shall be final and values would be a selection of  choices rather than a numeric value, using enums to implement such quantity seems tempting. Using interfaces to interconnect different but related sets of enums is suggested by . It works in various practical frameworks EG members worked on. And looking at restrictions some already final JSRs are bound to by their use of enums lets one hope its next releases find alternatives here, too.
-The following example of how to use unit declarations instead of primitive or simple Number objects was based on code from the Enums chapter in [EFFECTIVEJAVA] (p. 150ff)
+The following example of how to use unit declarations instead of primitive or simple Number objects was based on code from the Enums chapter in [[EFFECTIVEJAVA](GLOSSARY.html#EFFECTIVEJAVA)] (p. 150ff)
 ```
 import javax.measure.quantity.Length;
 import javax.measure.quantity.Mass;
@@ -34,4 +34,4 @@ public enum Planet {
    [...]
 }
 ```
-Note, Pluto is missing (contrary to [EFFECTIVEJAVA] unless the author corrected this in later editions) since it isn’t considered a planet any more. UoM demos contain a similar enum [DwarfPlanet](https://github.com/unitsofmeasurement/uom-demos/blob/master/console/ri/src/main/java/space/uom/demo/planet/DwarfPlanet.java) including Pluto and other dwarf planets discovered so far.
+Note, Pluto is missing (contrary to [[EFFECTIVEJAVA](GLOSSARY.html#EFFECTIVEJAVA)] unless the author corrected this in later editions) since it isn’t considered a planet any more. UoM demos contain a similar enum [DwarfPlanet](https://github.com/unitsofmeasurement/uom-demos/blob/master/console/ri/src/main/java/space/uom/demo/planet/DwarfPlanet.java) including Pluto and other dwarf planets discovered so far.
