@@ -16,6 +16,6 @@
 * [RI Level SPI](ri_spi.md)
    * [Measurement Interface](measurement.md)
    * [Range Class](range.md)
-* Examples
+* [Examples](examples.md)
    * [Hurricane Wind Scale](hurricane_wind_scale.md)
 
