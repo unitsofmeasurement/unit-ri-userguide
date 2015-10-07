@@ -1,4 +1,4 @@
-# Hurricane Wind Scale
+## Hurricane Wind Scale
 
 This example shows how QuantityRange can be extended e.g. to model Hurricane categories using the Saffir–Simpson hurricane wind scale (SSHWS):
 ```
