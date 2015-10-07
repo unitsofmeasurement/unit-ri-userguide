@@ -1,6 +1,7 @@
 # Hurricane Wind Scale
 
 This example shows how QuantityRange can be extended e.g. to model Hurricane categories using the Saffir–Simpson hurricane wind scale (SSHWS):
+```
 /**
  * @see <a href="http://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_hurricane_wind_scale">
  *      Wikipedia: Saffir–Simpson hurricane wind scale</a>
@@ -78,4 +79,21 @@ public class SaffirSimpsonHurricaneWindScale extends QuantityRange<Speed>> imple
         return "Saffir–Simpson hurricane wind scale";
     }
 }
+```
 
+This example code shows (including US-metric conversion) how the time to evacuate can be calculated for a given storm category. It also shows how to use the Quantities class:
+```
+SaffirSimpsonHurricaneWindScale sts = SaffirSimpsonHurricaneWindScale.of(
+  Quantities.getQuantity(39, MILES_PER_HOUR),
+  Quantities.getQuantity(73, MILES_PER_HOUR), TROPICAL_STORM);
+[...]
+SaffirSimpsonHurricaneWindScale s5 = SaffirSimpsonHurricaneWindScale.of(
+  Quantities.getQuantity(157, MILES_PER_HOUR), null, FIVE);
+[...]
+SaffirSimpsonHurricaneWindScale scale = s5;
+Quantity<Speed> metricSpeed = scale.hasMaximum() ?
+  scale.getMaximum().to(KILOMETRES_PER_HOUR) :
+  scale.getMinimum().to(KILOMETRES_PER_HOUR);
+Quantity<Length> l = Quantities.getQuantity(500, KILO(METRE));
+Quantity<Time> timeToEvacuate = l.divide(metricSpeed).asType(Time.class);
+```
