@@ -17,4 +17,5 @@
    * [Measurement Interface](measurement.md)
    * [Range Class](range.md)
 * Examples
+   * Hurricane Wind Scale
 
