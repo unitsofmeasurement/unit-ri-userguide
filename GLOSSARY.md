@@ -11,3 +11,7 @@ Igor Janicijevic and Martin Fowler: Analysis Patterns, http://martinfowler.com/a
 ## JSR-310
 
 Date & Time JSR: http://jcp.org/en/jsr/detail?id=310
+
+## EFFECTIVEJAVA
+
+Bloch, Josh, Effective Java Second Edition, http://www.oracle.com/technetwork/java/effectivejava-136174.html
