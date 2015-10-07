@@ -18,4 +18,5 @@
    * [Range Class](range.md)
 * [Examples](examples.md)
    * [Hurricane Wind Scale](hurricane_wind_scale.md)
+   * Using Enums
 
