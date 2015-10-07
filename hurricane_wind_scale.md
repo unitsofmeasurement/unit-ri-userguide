@@ -1,0 +1,2 @@
+# Hurricane Wind Scale
+
