@@ -11,7 +11,7 @@ public double doubleValue(Unit<Q> unit) {
 ```
 With such method, user code like below are slightly easier to write:
 ```java
-double calculateTravelTimeInSeconds(Length distance, Speed speed) {
+double calculateTravelTimeInSeconds(AbstractQuantity<Length> distance, AbstractQuantity<Speed> speed) {
    return distance.doubleValue(METRE) /
           speed.doubleValue(METRE_PER_SECOND);
 }
