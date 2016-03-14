@@ -11,7 +11,6 @@
    * [Quantities](quantities.md)
 * [Formatting](formatting.md)
 * [Functional Elements](functional_elements.md)
-   * Functional Interfaces
    * Conversion
 * [RI Level SPI](ri_spi.md)
    * [Measurement Interface](measurement.md)
