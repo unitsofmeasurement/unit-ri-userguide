@@ -1,4 +1,4 @@
-# Data and precision management
+# Preserving precision
 
 One important part of the unit of measurement business is the possibility to make conversions:
  - Conversion between System of unit (e.g. SI to US system). 
