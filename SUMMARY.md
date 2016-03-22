@@ -16,7 +16,7 @@
 * [RI Level SPI](ri_spi.md)
    * [Measurement Interface](measurement.md)
    * [Range Class](range.md)
-* Non Functional Requirements
+* [Non Functional Requirements](non-functional_requirements.md)
    * [Preserving precision](precision.md)
 * [Examples](examples.md)
    * [Hurricane Wind Scale](hurricane_wind_scale.md)
