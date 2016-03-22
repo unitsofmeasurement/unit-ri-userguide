@@ -2,7 +2,7 @@
 
 When managing measures, preserving precision is an important aspect to consider. The ability to maintain the precision is crucial when numbers are big or small. Operation of quantities having small rounding errors could accumulate and lead to wrong results.  
 
-To work on Java ME Embedded, the Reference Implementation of JSR 363 supports conversions using double and Number. A recommendation is to use BigDecimal and **avoid Double** (see example below). 
+To work on Java ME Embedded, the Reference Implementation of JSR 363 supports conversions using double and Number. A recommendation would be to use BigDecimal and avoid Double (see example below), but BigDecimal or BigInteger are simply not available on Java ME Embedded so far and for size constraints probably never will be. 
 
 BigDecimal has been designed to store and manipulate big or very small numbers. A brief technical introduction can be found in the Javadoc: 
 > Immutable, arbitrary-precision signed decimal numbers. A BigDecimal consists of an arbitrary precision integer unscaled value and a 32-bit integer scale. If zero or positive, the scale is the number of digits to the right of the decimal point. If negative, the unscaled value of the number is multiplied by ten to the power of the negation of the scale.
