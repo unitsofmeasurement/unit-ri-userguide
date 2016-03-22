@@ -13,15 +13,17 @@ The recommendation is **not to use Double** but to use BigDecimal, which is a ty
 Here an example of loss of precision: 
 ```
 UnitFormatService formatService = Bootstrap.getService(UnitFormatService.class);
-UnitFormat defaultFormatService = formatService.getUnitFormat();
+        UnitFormat defaultFormatService = formatService.getUnitFormat();
 
-TransformedUnit unit = (TransformedUnit) defaultFormatService.parse("g");
-System.out.println("Conversion using double: "+unit.getSystemConverter().convert(0.39));
-System.out.println("Conversion using BigDecimal: "+(unit.getSystemConverter().convert(new BigDecimal("0.39")));
+        TransformedUnit unit = (TransformedUnit) defaultFormatService.parse("g");
+        System.out.println("Conversion using double: " + unit.getSystemConverter().convert(0.39));
+        System.out.println("Conversion using BigDecimal: " + (unit.getSystemConverter().convert(new BigDecimal("0.39"))));
+        System.out.println("Conversion using BigDecimal output Double: " + new BigDecimal(unit.getSystemConverter().convert(new BigDecimal("0.39")).toString()).doubleValue());
 
-unit = (TransformedUnit) defaultFormatService.parse("%");
-System.out.println("Conversion using double: "+unit.getSystemConverter().convert(0.009));
-System.out.println("Conversion using BigDecimal: "+(unit.getSystemConverter().convert(new BigDecimal("0.009"))
+        unit = (TransformedUnit) defaultFormatService.parse("%");
+        System.out.println("Conversion using double: " + unit.getSystemConverter().convert(0.009));
+        System.out.println("Conversion using BigDecimal: " + (unit.getSystemConverter().convert(new BigDecimal("0.009"))));
+        System.out.println("Conversion using BigDecimal output Double: " + new BigDecimal(unit.getSystemConverter().convert(new BigDecimal("0.009")).toString()).doubleValue());
 ```
 
 The result is the following: 
