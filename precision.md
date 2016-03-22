@@ -1,14 +1,13 @@
 # Preserving precision
 
-When working with measure, one mandatory aspect is the ability to maintain the precision: in operations, in conversions.
-For example conversion between System of unit (e.g. SI to US system) or scaling (e.g. moving from kilometers to astronomical units).
+When managing measures, preserving precision is an important aspect to consider. The ability to maintain the precision is crucial when numbers are big or small. Operation of quantities having small rounding errors could accumulate and lead to wrong results.  
 
-```Uom-se``` supports conversions using Double (and double primitive) and Number. 
-The recommendation is **not to use Double** but to use BigDecimal, which is a type designed is required to preserve precision for very big or very small numbers. From the Javadoc of BigDecimal: 
+```Uom-se``` supports conversions using double and Number. The recommendation is to use BigDecimal and **avoid Double** (see example below). 
 
+BigDecimal has been designed to store and manipulate big or very small numbers. A brief technical introduction can be found in the Javadoc: 
 > Immutable, arbitrary-precision signed decimal numbers. A BigDecimal consists of an arbitrary precision integer unscaled value and a 32-bit integer scale. If zero or positive, the scale is the number of digits to the right of the decimal point. If negative, the unscaled value of the number is multiplied by ten to the power of the negation of the scale.
 
-**Note**: the safest and correct approach to create a BigDecimal is to use the contructor accepting String. Using the constructor that require double will create the BigDecimal object from a incorrect form, leading to the same problems affecting the Double object representation. 
+**Note**: the safest and correct approach to create a BigDecimal is to use the contructor accepting String. **Avoid** the constructor requiring double parameter as will construct the object from a incorrect form. This lead to the same problems affecting the double object representation. 
 
 Here an example of loss of precision: 
 ```
