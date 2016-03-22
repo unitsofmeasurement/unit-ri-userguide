@@ -28,10 +28,12 @@ UnitFormatService formatService = Bootstrap.getService(UnitFormatService.class);
 
 The result is the following: 
 ```
-Conversion using double: 3.9000000000000005E-4
+Conversion using double: 3.9E-4
 Conversion using BigDecimal: 0.00039
+Conversion using BigDecimal output Double: 3.9E-4
 Conversion using double: 8.999999999999999E-5
 Conversion using BigDecimal: 0.00009
+Conversion using BigDecimal output Double: 9.0E-5
 ```
 
 To read more about BigDecimal there are several resources: 
