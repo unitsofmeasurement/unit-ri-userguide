@@ -16,9 +16,9 @@
 * [RI Level SPI](ri_spi.md)
    * [Measurement Interface](measurement.md)
    * [Range Class](range.md)
+* Non Functional Requirements
+   * [Preserving precision](precision.md)
 * [Examples](examples.md)
    * [Hurricane Wind Scale](hurricane_wind_scale.md)
    * [Using Enums](using_enums.md)
-* Non Functional Requirements
-   * [Preserving precision](precision.md)
 
