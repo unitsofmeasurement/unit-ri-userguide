@@ -9,7 +9,7 @@
 * [Factory Accessors](factory_accessors.md)
    * [Units](units.md)
    * [Quantities](quantities.md)
-* Library
+* [Library](library.md)
 * [Formatting](formatting.md)
 * [Functional Elements](functional_elements.md)
    * Conversion
