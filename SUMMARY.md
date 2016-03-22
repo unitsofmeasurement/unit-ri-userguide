@@ -9,6 +9,7 @@
 * [Factory Accessors](factory_accessors.md)
    * [Units](units.md)
    * [Quantities](quantities.md)
+* Library
 * [Formatting](formatting.md)
 * [Functional Elements](functional_elements.md)
    * Conversion
@@ -18,5 +19,4 @@
 * [Examples](examples.md)
    * [Hurricane Wind Scale](hurricane_wind_scale.md)
    * [Using Enums](using_enums.md)
-* Library
 
