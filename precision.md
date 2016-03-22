@@ -1,4 +1,4 @@
-# Preserving precision
+## Preserving precision
 
 When managing measures, preserving precision is an important aspect to consider. The ability to maintain the precision is crucial when numbers are big or small. Operation of quantities having small rounding errors could accumulate and lead to wrong results.  
 
