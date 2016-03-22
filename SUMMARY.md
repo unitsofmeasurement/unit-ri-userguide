@@ -19,6 +19,6 @@
 * [Examples](examples.md)
    * [Hurricane Wind Scale](hurricane_wind_scale.md)
    * [Using Enums](using_enums.md)
-* [Preserving precision](precision.md)
 * Non Functional Requirements
+* [Preserving precision](precision.md)
 
