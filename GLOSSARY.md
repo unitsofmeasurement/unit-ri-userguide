@@ -15,3 +15,6 @@ Igor Janicijevic and Martin Fowler: Analysis Patterns, http://martinfowler.com/a
 ## JSR-310
 
 Date & Time JSR: http://jcp.org/en/jsr/detail?id=310
+
+##OGC_SWECDM
+Open Geospatial Consortium - SWE Common Data Model: http://www.opengeospatial.org/standards/swecommon
