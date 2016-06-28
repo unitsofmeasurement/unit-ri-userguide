@@ -19,12 +19,15 @@ Igor Janicijevic and Martin Fowler: Analysis Patterns, http://martinfowler.com/a
 
 Date & Time JSR: http://jcp.org/en/jsr/detail?id=310
 
-##OGC_OM
+## JSCIENCE
+JScience – Java Library for the Advancement of Sciences: Home Page
+
+## OGC_OM
 Open Geospatial Consortium - Observations and Measurements: http://www.opengeospatial.org/standards/om
 
-##OGC_SWECDM
+## OGC_SWECDM
 Open Geospatial Consortium - SWE Common Data Model: http://www.opengeospatial.org/standards/swecommon
 
-##W3C_SSN
+## W3C_SSN
 W3C – Semantic Sensor Network Ontology: https://www.w3.org/TR/vocab-ssn/
 
