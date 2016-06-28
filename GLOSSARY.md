@@ -1,5 +1,8 @@
 # Glossary
 
+## BIPM_VIM
+BIPM - International Vocabulary of Metrology: http://www.bipm.org/en/publications/guides/vim.html
+
 ## EFFECTIVEJAVA
 
 Bloch, Josh, Effective Java Second Edition, http://www.oracle.com/technetwork/java/effectivejava-136174.html
