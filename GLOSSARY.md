@@ -28,6 +28,8 @@ Open Geospatial Consortium - Observations and Measurements: http://www.opengeosp
 ## OGC_SWECDM
 Open Geospatial Consortium - SWE Common Data Model: http://www.opengeospatial.org/standards/swecommon
 
+## UOMO
+Eclipse UOMo - Project Page: http://www.eclipse.org/uomo/
 ## W3C_SSN
 W3C – Semantic Sensor Network Ontology: https://www.w3.org/TR/vocab-ssn/
 
